@@ -32,12 +32,13 @@ def download_video(link):
     path = "Youtube_Download/Downloads/Vídeos" # Diretório definido para a pasta download
     print("Baixando...")
     video = yt.streams.get_highest_resolution().download(path) # get_highest_resolution() : Busca a melhor qualidade de download do vídeo. download() : Informo o diretório que ficara o arquivo
-    print("Dowload Completo!")
+    print("Download Completo!")
 
     prox = str(input("Pressione ENTER tecla para continuar..."))
     return main()
 
 def download_playlist_video(link):
+    os.system("clear")
     nome_playlist = str(input("Nome da PlayList: "))
     path = "Youtube_Download/Downloads/"+nome_playlist # Diretório definido para a pasta download
     print("Baixando...")
@@ -46,12 +47,13 @@ def download_playlist_video(link):
         yt = YouTube(url)
         video = yt.streams.get_highest_resolution() # Busca a melhor qualidade de download do vídeo. 
         video.download(output_path=path) # Informo o diretório que ficara o arquivo
-    print("Dowload Completo!")
+    print("Download Completo!")
 
     prox = str(input("Pressione ENTER tecla para continuar..."))
     return main()
 
 def download_audio(link):
+    os.system("clear")
     yt = YouTube(link) # Recebe a URL informada
     path = "Youtube_Download/Downloads/Áudio" # Diretório definido para a pasta download
     print("Baixando...")
@@ -70,6 +72,7 @@ def download_audio(link):
     return main()
     
 def download_playlist_audio(link):
+    os.system("clear")
     nome_playlist = str(input("Nome da PlayList: "))
     path = "Youtube_Download/Downloads/"+nome_playlist # Diretório definido para a pasta download
     print("Baixando...")
@@ -85,7 +88,7 @@ def download_playlist_audio(link):
                 new_file = mp.AudioFileClip(mp4_path)
                 new_file.write_audiofile(mp3_path)
                 os.remove(mp4_path) # Remove o arquivo .mp4 da presente pasta
-    print("Dowload Completo!")
+    print("Download Completo!")
 
     prox = str(input("Pressione ENTER tecla para continuar..."))
     return main()
