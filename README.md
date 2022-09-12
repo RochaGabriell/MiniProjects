@@ -1,3 +1,3 @@
-# Mini Projetos em Python
+# Mini Projetos
 
-Coleção com mini projetos simples em Python que fiz para passar o tempo e aprimorar minhas habilidades em Python.
+Coleção com mini projetos simples que fiz para passar o tempo e aprimorar minhas habilidades.
