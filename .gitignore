@@ -1,3 +1,6 @@
 .git
 __pycache__
 Youtube_Download/env_yt
+Calculator/Python/env_cal
+Instagram/env_inst
+Counting_Face/env_cam
