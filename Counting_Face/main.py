@@ -25,7 +25,7 @@ while 1:
         thickness = 1 # Espessura da linha
         i += 1
         cv2.rectangle(frame, start_point, end_point, color_rectangle, thickness) # Desenhar um retângulo
-        cv2.putText(frame, f"       CABECAO {i}", (start_point[0]-5, start_point[1]-5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color_text, 1)
+        cv2.putText(frame, f"       PERSON {i}", (start_point[0]-5, start_point[1]-5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color_text, 1)
 
     cv2.imshow("Camera", frame) # Exibindo a imagem
 
