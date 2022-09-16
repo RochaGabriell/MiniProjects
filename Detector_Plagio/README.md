@@ -38,13 +38,13 @@ $ python3 Detector_Plagio/main.py
   <img src="../img/Detector_Plagio/p1.png" width="500" title="">
 </p>
 
-2º Parte - Informe o diretório que será feito salvo os arquivos de registros:
+2º Parte - Informe o diretório que será salvo os arquivos de registro:
 
 <p align="center">
   <img src="../img/Detector_Plagio/p2.png" width="500" title="">
 </p>
 
-3º Parte - Será feito a comparação com todos as pastas no diretório:
+3º Parte - Será feito a comparação com todas as pastas presentes no diretório:
 
 <p align="center">
   <img src="../img/Detector_Plagio/p3.png" width="500" title="">
