@@ -35,9 +35,6 @@ try:
 
             for dados in insert_value:
                 cur.execute(insert_script, dados)
-            
-            update_script = "UPDATE employee SET salary = salary + (salary * 0.5)"
-            cur.execute(update_script)
 
             delete_script = "DELETE FROM employee WHERE name = %s"
             delete_record = ('Amaral',)
