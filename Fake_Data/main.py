@@ -1,3 +1,4 @@
+import json
 from faker import Faker
 
 fake = Faker()
@@ -14,4 +15,4 @@ for cont in range(0, 10):
     })
 
 for cont in data_dictionary:
-    print(cont)
+    print(json.dumps(cont, sort_keys=True, indent=4))
