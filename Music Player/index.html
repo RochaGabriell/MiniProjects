@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="img/favicon_io/favicon.ico">
+
+    <title>Pre-Spotify</title>
+</head>
+
+<body>
+    <img src="img/capas/mod.jpeg" alt="Capa da Música">
+
+    <div class="descricao">
+        <h2>None Música</h2>
+        <i>None Autor</i>
+    </div>
+
+    <div class="duracao">
+        <div class="progresso">
+            <progress value="0" max="1"></progress>
+            <div class="ponto"></div>
+        </div>
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">0:00</p>
+        </div>
+    </div>
+
+    <div class="botoes">
+        <i class="bi bi-skip-start-circle-fill botao_setas anterior"></i>
+        <i class="bi bi-pause-circle-fill botao_pause"></i>
+        <i class="bi bi-play-circle-fill botao_play"></i>
+        <i class="bi bi-skip-end-circle-fill botao_setas proximo"></i>
+    </div>
+
+    <audio src="music/Mob.mp3"></audio>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
